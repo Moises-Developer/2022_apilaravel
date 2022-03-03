@@ -194,6 +194,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // ...
+        'JwtAuth' => App\helpers\JwtAuth::class,
     ])->toArray(),
 
 ];
